@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1 id="title">Drum 🥁 Kit</h1>
+    <p class="instructions">Click a drum or press <strong>W A S D J K L</strong> on your keyboard to play.</p>
+
+    <div class="set" aria-label="Interactive drum kit">
+      <button type="button" class="w drum" aria-label="W, tom drum 1">w</button>
+      <button type="button" class="a drum" aria-label="A, tom drum 2">a</button>
+      <button type="button" class="s drum" aria-label="S, tom drum 3">s</button>
+      <button type="button" class="d drum" aria-label="D, tom drum 4">d</button>
+      <button type="button" class="j drum" aria-label="J, snare drum">j</button>
+      <button type="button" class="k drum" aria-label="K, crash cymbal">k</button>
+      <button type="button" class="l drum" aria-label="L, kick bass drum">l</button>
+    </div>
+    <p class="beat-counter">Drum hits: <span id="beat-count">0</span></p>
+  </main>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
